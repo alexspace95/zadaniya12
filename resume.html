@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Отправить резюме</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="./files/img/EPAM_logo.png" type="/image/png" />
+</head>
+
+<body>
+
+    <header class="main" align="center">
+
+        <a href="Second.html">
+            <br /><img src="files/img/EPAM_logo.png" width="250">
+        </a>
+
+        <div class="nav" align="center">
+            <h2>
+                <a href="Second.html"> Главная страница </a>&nbsp;
+                <a href="blog.html"> Блог нашей компании </a>&nbsp;
+                <a href="staty.html"> Статьи </a>&nbsp;
+                <a href="video.html"> Видеогалерея </a>&nbsp;
+                <a href="resume.html"> Отправить резюме </a>
+            </h2>
+
+
+        </div>
+    </header>
+    <hr />
+
+    <aside>
+        <a href="Second.html"> Главная страница </a>&nbsp;
+        >>>
+        <a href="resume.html"> Отправить резюме </a>
+    </aside>
+
+    <body>
+        <div>
+            <form>
+
+                <h1 align="center">
+                    Форма резюме
+                </h1>
+
+                <label>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Ваше имя :<br />
+                         <input type="text" name="name" required />
+                    </p>
+                </label>
+                <label>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Ваша фамилия :<br />
+                         <input type="text" name="surname" required />
+                    </p>
+                </label>
+                <label>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Дата рождения :<br />
+                         <input type="date" name="DoB" required </p>
+                    <p>
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp; Ваше Образование : <br />
+                <select name="education" required>
+                    <option value="no" selected> Нет </option>
+                    <option value="m"> Среднее </option>
+                    <option value="um"> Средне-специальное </option>
+                    <option value="ph"> Неоконченное высшее </option>
+                    <option value="h"> Высшее </option>
+                    <option value="2h"> Два высших и более </option>
+                </select>
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Семейное положение :
+                </p>
+                <div>
+                    <label>
+                        <p> <input type="radio" name="ms" value="0" /> <span> Холост/не замужем </span> </p>
+                    </label>
+                    <label>
+                        <p> <input type="radio" name="ms" value="1" checked /> <span> Женат/замужем </span> </p>
+                    </label>
+                </div>
+
+                <div class="language">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Языки, которые Вы знаете :
+                    </p>
+                    <p><input type="checkbox" name="lang" value="b" /> Беларусский </p>
+                    <p><input type="checkbox" name="lang" value="r" checked /> Русский </p>
+                    <p><input type="checkbox" name="lang" value="e" /> Английский </p>
+                    <p><input type="checkbox" name="lang" value="g" /> Немецкий </p>
+                    <p><input type="checkbox" name="lang" value="f" /> Французский </p>
+                    <p><input type="checkbox" name="lang" value="s" /> Испанский </p>
+                    <p><input type="checkbox" name="lang" value="other" /> Другой </p>
+                </div>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Опыт работы в месяцах:
+                </p>
+                <p> <input type="number" name="exp" min="0" max="361" required /> </p>
+                <label>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Опишите места работы:
+                    <div class="textarea">
+                        <textarea required cols="75" rows="10" name="about" required></textarea>
+                    </div>
+                    </p>
+                </label>
+                <label>
+                    <p> 
+                        &nbsp;&nbsp;&nbsp;&nbsp; О себе:
+                    <div class="textarea">
+                        <textarea required cols="75" rows="10" name="about" required></textarea>
+                    </div>
+                    </p>
+                </label>
+                <p> 
+                    &nbsp;&nbsp;&nbsp;&nbsp; Есть ли у вас водительские права?
+                <div>
+                    <label>
+                        <p> <input type="radio" name="car" value="yes" /> <span> Да </span> </p>
+                    </label>
+                    <label>
+                        <p> <input type="radio" name="car" value="no" checked /> <span> Нет </span> </p>
+                    </label>
+                </div>
+                </p>
+                <label>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp; Ваш e-mail : <input type="email" name="mail" required />
+                    </p>
+                </label>
+                <br /><br />
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Отправить" />
+                </p>
+
+            </form>
+        </div>
+
+
+
+        <hr />
+
+        <footer class="nav" align="center">
+
+            <sub>
+                <a href="Second.html"> Главная страница </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="blog.html"> Блог нашей компании </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="staty.html"> Статьи </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="video.html"> Видеогалерея </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="resume.html"> Отправить резюме </a>
+            </sub>
+        </footer>
+
+        <hr />
+
+    </body>
+
+</html>
